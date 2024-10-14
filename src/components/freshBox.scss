@@ -1,0 +1,57 @@
+.freshboxWrap{
+    padding: 50px 0;
+    background: #f5f5f5;
+    h2{text-align: center;}
+    >p{text-align: center; color: #bbb; font-size: 14px;}
+    .freshslider{
+        padding: 20px 50px;
+        .freshboxswiper{
+            display: flex;
+            padding: 30px 0 50px;
+            .freshList{
+                margin-right: 10px;
+                border: 1px solid #eee;
+                background: #fff;
+                text-align: center;
+                position: relative;
+                a{
+                    display: block;
+                    .imgBox{
+                        width: 100%;
+
+                        img{width: 100%;}
+                    }
+                    .textBox{
+                        border-bottom: 1px solid #eee;
+                        p{
+                            padding: 20px 0;
+                            color: #555;
+                            font-size: 14px;
+                        }
+                    }
+                    .priceBox{
+                        p{
+                            padding: 20px 0;
+                            color: #555;
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                    }
+                    .numberBox{
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        background: #444;
+                        text-align: center;
+                        color: #fff;
+                        top: 0;
+                        left: 20px;
+                        box-sizing: border-box;
+                        padding-top: 13px;
+                        box-shadow: 2px 2px 20px #333;
+                    }
+                }
+            }
+        }
+    }
+}

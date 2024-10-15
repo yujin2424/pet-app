@@ -2,6 +2,7 @@ import React from 'react';
 import MainSlider from '../components/MainSlider';
 import Best from '../components/Best';
 import FreshBox from '../components/FreshBox';
+import New from '../components/New';
 
 const MainPage = () => {
     return (
@@ -14,6 +15,9 @@ const MainPage = () => {
             </section>
             <section className="section03">
                 <FreshBox />
+            </section>
+            <section className="section04">
+                <New />
             </section>
         </div>
     );

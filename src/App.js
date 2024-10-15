@@ -3,6 +3,7 @@ import MainPage from './page/MainPage';
 import AboutPage from './page/AboutPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import QuickButton from './components/QuickButton';
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/about/:id" element={<AboutPage />} />
       </Routes>
       <Footer />
+      <QuickButton />
     </div>
   );
 }

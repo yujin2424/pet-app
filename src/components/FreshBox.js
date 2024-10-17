@@ -32,7 +32,7 @@ const FreshBox = () => {
                petdata.map((data, i) =>{
                   return (
                         <SwiperSlide>
-                           <Card data={data} key={i} i={i}/>
+                           <Card data={data} i={i}/>
                         </SwiperSlide>
                   )
                })

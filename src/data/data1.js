@@ -56,7 +56,7 @@ let data1 = [
    {
       id: 9,
       title: '진주점',
-      img: 'img/img10.jpg',
+      img: 'img/img11.jpg',
       add: '경남 진주 진주역로 114 상가 3동 1층 105 106호'
    }
 ]

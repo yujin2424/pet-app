@@ -8,7 +8,7 @@
     {
        "id": 2,
        "imageUrl":"/img/dog01.jpg",
-       "description":"귀여운 고양이",
+       "description":"귀여운 강아지",
        "category":"dog"
     },
     {
@@ -44,13 +44,7 @@
     },
     {
        "id": 8,
-       "imageUrl":"/img/cat05.jpg",
-       "description":"고양이",
-       "category":"cat"
-    },
-    {
-       "id": 9,
-       "imageUrl":"/img/dog4.jpg",
+       "imageUrl":"/img/dog04.jpg",
        "description":"강아지",
        "category":"dog"
     }

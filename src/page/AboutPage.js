@@ -1,7 +1,7 @@
 import React from 'react';
-import MainSlider from '../componenets/MainSlider';
-import Tab from '../componenets/Tab';
-import List from '../componenets/List';
+import MainSlider from '../components/MainSlider';
+import Tab from '../components/Tab';
+import List from '../components/List';
 import TabData from '../data/tab.json';
 
 

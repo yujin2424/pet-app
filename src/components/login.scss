@@ -1,0 +1,23 @@
+.loginWrap{
+    width: 100%;
+    max-width: 700px;
+    padding: 50px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    h1{
+       border-bottom: 5px double #ddd;
+       text-align: center;
+       padding-bottom: 5px;
+    }
+    .loginBox{
+       margin-top:70px;
+ 
+       Input{
+          padding: 20px
+       }
+       .ant-form-item-required{
+          width:80px;
+          display:inline-block;
+       }
+    }
+ }

@@ -1,0 +1,47 @@
+.tab{
+    width: 100%;
+    margin: 100px auto 50px auto;
+    .tab-menu{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        height: 70px;
+        button{
+            width: 100%;
+            outline: none;
+            border: none;
+            background: rgb(255, 255, 255);
+            color: #333;
+            border-top: 1px solid rgb(212, 212, 212);
+            font-size: 18px;
+            &.active{
+                background: rgb(48, 48, 48);
+                color: #fff;
+            }
+        }
+    }
+    .tabList{
+        width: 100%;
+        padding: 70px 100px 60px;
+        box-sizing: border-box;
+        text-align: center;
+        background: rgb(48, 48, 48);
+        color: #fff;
+        display: flex;
+        gap: 2rem;
+        li{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .tab-img{
+                width: 100%;
+                img{width: 100%;}
+            }
+            .tab-description{
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    }
+}
